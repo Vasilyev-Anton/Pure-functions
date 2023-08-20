@@ -1,4 +1,4 @@
-import { healthIndicator } from '../app';
+import healthIndicator from '../app';
 
 test('should return "healthy" for health > 50', () => {
   expect(healthIndicator({ name: 'Маг', health: 90 })).toBe('healthy');
